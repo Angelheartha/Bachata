@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+html{
+font-size:62.5%;
+}
+
+*, *::before, *::after{
+box-sizing:border-box;
+}
+
+body{
+text-align:center;
+font-size:1.4rem;
+font-family:Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+
+
+.header{
+background-color:transparent repeat-x;
+width:100%;
+table-layout:fixed;
+
+position:fixed;
+}
+
+.header-a{
+margin:10px 30px 10px;
+display:inline-block;
+text-align:center;
+decoration:none;
+background-color:#b0c4de;
+width:200px;
+padding:20px;
+font-size:1.2rem;
+color:#fff;
+border-radius:30px;
+transition:0.15s;
+cursor:pointer;
+}
+
+.header-a:hover{
+background-color:#4b0082;
+color:#fff;
+}
+
+.header .header-b{
+transition:0.15s;
+height:65px;
+}
+
+.header .header-b a{
+height:100px;
+font-size:15px;
+font-weight:bold;
+text-align:center;
+color:#f0f8ff;
+text-decoration:none;
+}
+
+.header .header-b a::before,
+.header .header-b a::after{
+content:'';
+display:inline-block;
+width:100%;
+height:10px;
+margin:0 3px;
+background-color:#fff;
+vertical-align:middle;
+}
+
+
+.header .header-b a:hover{
+color:#8d0000;
+
+}
+
+
+.header-a a{
+text-decoration:none;
+transition:0.15s;
+
+}
+
+
+
+.header-love{
+font-size:60px;
+width:225px;
+height:56px;
+margin:0 auto;
+text-align:center;
+}
+
+.bachata-ll{
+background-image:url('../images/black.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+width:auto;
+height:100%;
+width:100%;
+}
+
+.yellow{
+wide:100%;
+background-image:url('../images/img.png');
+background-repeat:no-repeat;
+background-size:cover;
+width:auto;
+height:100%;
+width:100%;
+}
+
+.bachata-love{
+wide:100%;
+background-image:url('../images/bachta.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+width:auto;
+height:100%;
+width:100%;
+}
+
+.footer{
+padding:12px 0;
+font-size:1.3rem;
+}
+
+.contact{
+padding:80px 0 150px;
+}
+
+.contact-form{
+width:50%;
+margin:50px auto 0;
+}
+
+.contact-form input[type=text],
+.contact-form textarea{
+display:block;
+width:100%;
+outline:none;
+margin-bottom:10px;
+padding:15px;
+border:1px solid rgba(255,255,255,0.4);
+border-radius:0;
+background-color:rgba(255,255,255,0.05);
+color:#fff;
+}
+
+.contact-form textarea{
+height:150px;
+}
+
+.contact-form input[type=submit]{
+display:block;
+width:200px;
+margin:40px auto 0;
+padding:15px;
+border:1px solid rgba(255,255,255,0.4);
+border-radius:5px;
+background-color:transparent;
+color:rgba(255,255,2555,0.6);
+cursor:pointer;
+}
+
+.contact-form input[type=submit]:hover{
+background-color:rgba(255,255,255,0.05);
+}
+
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus{
+box-shadow:0 0 8px rgba(255,255,255,0.5)inset;
+}
+
+.bachata-anunce{
+font-size:5rem;
+font-weight:normal;
+}
+
+.bachata-event{
+display:table;
+width:100%;
+height:100%;
+padding:px;
+}
+
+.bachata-events{
+display:table-cell;
+border:4px solid black;
+vertical-align:middle;
+font-size:2rem;
+line-height:5px;
+
+}
